@@ -1,0 +1,315 @@
+Project Submission Code:  97c8d39fc70b52208f18fc66bbf58874b
+
+
+Node 1 password:     rickeynode1
+
+Node 2 password:     rickeynode2
+
+Generated Account address in Node_1:     3d5eb73240e4e0b4293d50803af626dffe233ed4
+
+Generated Account address in Node_2:     0e0148b43894563e6c64a643cda1c7823c34fb9b
+
+Contents of the Genesis file
+{
+    "config": {
+        "chainId": 13,
+        "homesteadBlock": 0,
+        "eip155Block": 0,
+        "eip158Block": 0
+    },
+    "difficulty": "0x20000",
+    "gasLimit": "0x2fefd8",
+    "alloc": {},
+    "nonce": "0x0000000000000042",
+    "timestamp": "0x0",
+    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "extraData": "",
+    "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "coinbase": "0x0000000000000000000000000000000000000000"
+}
+
+Node 1 Peer Count:  1
+
+Node 2 Peer Count:  1
+
+Node 1 Peer Details:
+[
+  {
+    "id": "0eb6d5ef21fcbc11ff41b66506ff3de99c5bb88d9c4c555fb57c8b176a7bf0b4f0bce95596b1a692c8ef6c35cb3c1fc7baec4df1a2822d7e8170df5f672c9602",
+    "name": "Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9",
+    "caps": [
+      "eth/63"
+    ],
+    "network": {
+      "localAddress": "[::1]:33932",
+      "remoteAddress": "[::1]:30302"
+    },
+    "protocols": {
+      "eth": {
+        "version": 63,
+        "difficulty": 131072,
+        "head": "0x5e1fc79cb4ffa4739177b5408045cd5d51c6cf766133f23f7cd72ee1f8d790e0"
+      }
+    }
+  }
+]
+
+Node 2 Peer Details:
+[
+  {
+    "id": "7e7092e0613236e79ce376c449e870a77bd428281ba5d0a57b79d4d9ed65fde377421a3db24c8b41895dc36b803026b2b3c3bb0ebc0fbc81ed7a32af1055ed76",
+    "name": "Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9",
+    "caps": [
+      "eth/63"
+    ],
+    "network": {
+      "localAddress": "[::1]:30302",
+      "remoteAddress": "[::1]:33932"
+    },
+    "protocols": {
+      "eth": {
+        "version": 63,
+        "difficulty": 131072,
+        "head": "0x5e1fc79cb4ffa4739177b5408045cd5d51c6cf766133f23f7cd72ee1f8d790e0"
+      }
+    }
+  }
+]
+
+Before Miner
+ 
+Node 1 Account Balance:
+
+Account Address
+Balance (in Weis)
+Balance (in Ethers)
+
+0x3d5eb73240e4e0b4293d50803af626dffe233ed4
+
+0
+
+0
+
+0x2d03e2772f5afec509de15164490c48dbe679931
+
+0
+
+0
+
+0x9b9f113460957f0a65a38a2e8696e56866420e4e
+
+0
+
+0
+
+0x060a0068c7957ae1d28ff929209491a5b5a0bc59
+
+0
+
+0
+
+0x4f5e98256b95eea16ce021c599b8013fc993d51a
+
+0
+
+0
+
+
+
+
+Node 2 Account Balance:
+
+Account Address
+Balance (in Weis)
+Balance (in Ethers)
+
+0x0e0148b43894563e6c64a643cda1c7823c34fb9b
+
+0
+
+0
+
+0x15d7b62b95178f6a20f145f4eade1a9a258903c9
+
+0
+
+0
+
+0xeeb315e8465fae78adb0e2c130cfae160c768f17
+
+0
+
+0
+
+0x4247cc26ca666ce0cc7ec4656b9a48c2ddd65edf
+
+0
+
+0
+
+0xb55f835f6ed7ecf15e78a18f62a143d500ffabd6
+
+0
+
+0
+
+
+After Miner
+
+Node 1 Account Balance:
+
+Account Address
+Balance (in Weis)
+Balance (in Ethers)
+
+0x3d5eb73240e4e0b4293d50803af626dffe233ed4
+
+185000000000000000000
+
+185
+
+0x2d03e2772f5afec509de15164490c48dbe679931
+
+0
+
+0
+
+0x9b9f113460957f0a65a38a2e8696e56866420e4e
+
+0
+
+0
+
+0x060a0068c7957ae1d28ff929209491a5b5a0bc59
+
+0
+
+0
+
+0x4f5e98256b95eea16ce021c599b8013fc993d51a
+
+0
+
+0
+
+
+
+
+Node 2 Account Balance:
+
+Account Address
+Balance (in Weis)
+Balance (in Ethers)
+
+0x0e0148b43894563e6c64a643cda1c7823c34fb9b
+
+0
+
+0
+
+0x15d7b62b95178f6a20f145f4eade1a9a258903c9
+
+0
+
+0
+
+0xeeb315e8465fae78adb0e2c130cfae160c768f17
+
+0
+
+0
+
+0x4247cc26ca666ce0cc7ec4656b9a48c2ddd65edf
+
+0
+
+0
+
+0xb55f835f6ed7ecf15e78a18f62a143d500ffabd6
+
+0
+
+0
+
+
+Account Node 1 Unlocked
+
+Account Node 2 Unlocked
+
+
+After Transaction of 50 Ethers
+
+Node 1 Account Balance:
+
+Account Address
+Balance (in Weis)
+Balance (in Ethers)
+
+0x3d5eb73240e4e0b4293d50803af626dffe233ed4
+
+270000000000000000000
+
+270
+
+0x2d03e2772f5afec509de15164490c48dbe679931
+
+0
+
+0
+
+0x9b9f113460957f0a65a38a2e8696e56866420e4e
+
+0
+
+0
+
+0x060a0068c7957ae1d28ff929209491a5b5a0bc59
+
+0
+
+0
+
+0x4f5e98256b95eea16ce021c599b8013fc993d51a
+
+0
+
+0
+
+
+
+
+Node 2 Account Balance:
+
+Account Address
+Balance (in Weis)
+Balance (in Ethers)
+
+0x0e0148b43894563e6c64a643cda1c7823c34fb9b
+
+50000000000000000000
+
+50
+
+0x15d7b62b95178f6a20f145f4eade1a9a258903c9
+
+0
+
+0
+
+0xeeb315e8465fae78adb0e2c130cfae160c768f17
+
+0
+
+0
+
+0x4247cc26ca666ce0cc7ec4656b9a48c2ddd65edf
+
+0
+
+0
+
+0xb55f835f6ed7ecf15e78a18f62a143d500ffabd6
+
+0
+
+0

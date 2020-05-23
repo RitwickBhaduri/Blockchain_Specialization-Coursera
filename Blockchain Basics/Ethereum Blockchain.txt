@@ -1,0 +1,59 @@
+ETHEREUM BLOCKCHAIN
+
+A new generation blockchain beyond Bitcoin, ETHEREUM Blockchain
+
+The Bitcoin blockchain is the mother of all blockchains. Well, Bitcoin is not the only player in town.
+
+Around 2013, a framework for code execution on blockchain was introduced by Ethereum Founders. Ethereum that took a significant step towards transforming the blockchain into a computational framework, opened up a whole new world of opportunities in the decentralized realm. The centerpiece and thrust of Ethereum blockchain is a smart contract. Ethereum supports smart contracts and virtual machines on which smart contracts execute. Smart contracts, in turn, enable decentralized applications that accomplish more than a transfer of value. Efficient automation of decentralized applications such as supply chain.
+
+Smart Contract
+
+A smart contract is a block of code deployed in the node of blockchain. Execution of a smart contract is initiated by a message embedded in the transaction. Digital currency transfer requests simple addition and subtraction, although, Ethereum enables transaction that may carry out more sophisticated operations, such as, a transaction could require a conditional transfer, it may need more than one signature for transfer of assets, it may require some evaluation, or it may involve waiting for a specific time or date.
+
+What can a smart contract do? For example, in an auction, auction bidding smart contract could execute these logics, if the age of a bidder is greater than 18 and the bid is greater than the minimum bid, then, accept the bid, or else reject the bid. This can be done by a smart contract.
+
+What does the smart contract look like? How do you write a smart contract?
+
+A smart contract resembles a class definition in object-oriented design. It has data, functions or methods (with modifiers public or private), along with getter and set of functions. Specific programming languages have been designed for coding smart contracts. Solidity is one such language. 
+
+The first line with pragma indicates the version of the solidity language. The contract's name is in the first line. This particular contract is for one integer storage. The data for the integer is defined with type a name, uint StoredData. Two functions are defined for writing and reading the data, set and get for code execution.
+
+Where does the code in the smart contract get executed?
+
+We need a computational infrastructure to execute any arbitrary code. Every node in the Ethereum network should be able to execute the code irrespective of the underlying type of hardware or operating system. An EVM (Ethereum Virtual Machine) provides a run anywhere obstruction layer for the contract code. A smart contract written in a high-level programming language is translated into EVM byte code, and then, deployed on the Ethereum Virtual Machine, EVM. Every node will host the same smart contract codes on the EVM.
+
+Ethereum Structure
+
+Ethereum formally introduces the concept of an account as a part of the protocol. An account is an originator and also a target of a transaction. A transaction directly updates the account balances as opposed to maintaining the state such as in the bitcoin UTXOs (Unspent Transaction Output). It allows for the transmitting of value, messages, and data between the accounts that may result in the state transitions. These transfers are implemented using transactions.
+
+Two types of accounts, Externally Owned Accounts and Contract Accounts. Externally Owned Accounts or EOA are controlled by private keys. Contract Accounts or CA are controlled by the code which can be activated only by an EOA. An externally owned account is needed to participate in the Ethereum network. It interacts with the blockchain using transactions. A Contract Account represents a smart contract. Every account has a coin balance. The participant node can send a transaction for Ether transfer or it can send a transaction to invoke a smart contract code or both, both types of transactions require fees. An account must have sufficient balance to meet the fees needed for the transactions activated. Fees are paid in Wei. Wei is a lower denomination of Ether. 
+
+1 Ether (ETH) is equivalent to 1x1018 Wei (or 1e18 Wei)
+
+A transaction in Ethereum includes the recipient of the message, a digital signature of the sender authorizing the transfer, amount of Wei to transfer, an optional data field (or payload that contains a message to a contract), STARTGAS (which is a value representing the maximum number of computational steps the transaction is allowed), GASPRICE (a value representing the fee sender is willing to pay for the computations).
+
+Ethereum Block Structure
+
+Ethereum block structure has a header, transaction, and runner-up block headers.
+
+Block Details
+
+Ethereum block at the height 4 4 3 5 0 1 2. It shows the height, timestamp, block hash, previous hash, difficulty and total difficulty, size, gas used, gas limit, nonce, and block reward.
+
+Ethereum Operation
+
+For a simple Ether transfer, the amount to transfer and the target address are specified along with the fees or gas points. The amount and the fees are transferred to their respective accounts. An Ethereum node is a computational system representing a business entity or an individual participant. An Ethereum full node hosts the software needed for transaction initiation, validation, mining, block creation, smart contract execution, and the Ethereum Virtual Machine, EVM.
+
+A smart contract is designed, developed, compiled, and deployed on the EVM that can be more than one smart contract in an EVM. When the target address in a transaction is a smart contract, the execution code corresponding to the smart contract is activated and executed on the EVM. The input needed for this execution is extracted from the payload field of the transaction. The current state of the smart contract is the values of the variables defined in it. The state of the smart contract may be updated by this execution. The results of this execution are told in the receipts. A blockchain maintains both the state hash and the receipt hash.
+
+Gas Points
+
+Ethereum also uses an incentive-based model for block creation. Every action in Ethereum requires crypto fuel or gas known as Gas Points. Gas Points are used to specify the fees inside of Ether, for ease of computation using standard values. Gas Points allow for cryptocurrency independent valuation of the transaction fees and computation fees. Ether, as a cryptocurrency, varies in value with market swings, but Gas Points do not vary. Ethereum has specified Gas Points for each type of operation. The mining process computes Gas Points required for the execution of a transaction. If the fee specified and the Gas Point in the transaction are not sufficient, it is rejected. The Gas Points needed for execution must be in the account balance for the execution to happen. If there is any amount left over after the execution of a transaction, it is returned to the originating account. 
+
+Gas Limit and Gas Spent
+
+Gas limit is the number of gas points available for a block to spend. For example, if a block specifies a limit of 1 million 5 hundred thousand units of gas, and a basic Ether transaction fee is 21,000, then this particular Ethereum block can fit about 70 plain Ether transactions. If we add smart contract transactions into this block (which usually requires more gas), the number of transactions for this block will likely be lower. Gas spent is the actual amount of gas spent at the completion of the block creation.
+
+Mining Incentive Model
+
+The proof of work puzzle winner, miner, that creates a new block, is incentivized with the base fees of three Ethers, and the transaction fees in Ethereum blockchain. The winning miner also gets the fees, gas points, for the execution of a smart contract transaction. Now, there may be other miners who also solve the puzzle besides the winner, what about them? Such miners who solve the puzzle, but didn't win the block are called Ommers. The blocks created by them are called Ommer Blocks.
