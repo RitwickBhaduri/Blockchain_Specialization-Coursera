@@ -1,2 +1,2 @@
-Blockchiain Specialization Coursera
+Blockchiain Specialization in Coursera
 # Ritwick Bhaduri
